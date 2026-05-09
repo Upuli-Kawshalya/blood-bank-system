@@ -1,6 +1,17 @@
-# Ignore Node.js dependencies
+# Dependencies
 node_modules/
 
-# Ignore OS files
+# Environment variables
+.env
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Build outputs
+frontend/dist/
+backend/dist/
+
+# Logs
+*.log
+npm-debug.log*
